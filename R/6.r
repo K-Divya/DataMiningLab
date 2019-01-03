@@ -7,7 +7,7 @@ library(factoextra)
 
 
 #Input dataset
-data <- read.csv("/Users/vishalprabhachandar/Documents/Programming/DataminingLab/R-Programs/1.6/input.csv")
+data <- read.csv("input.csv")
 
 #Making species column NULL
 data$Species<-NULL
